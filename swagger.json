@@ -5,10 +5,11 @@
     "description": "Week 05 API",
     "version": "1.0.0"
   },
-  "host": "localhost:5050", 
+  "host": "cse341week05.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "http",
+    "https"
   ],
   "paths": {
     "/users/": {
