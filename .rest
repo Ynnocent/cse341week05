@@ -1,0 +1,31 @@
+GET http://localhost:5050/
+
+
+###
+
+GET http://localhost:5050/681eea0fadee391cee35b34f
+
+###
+POST http://localhost:5050/newcontact
+Content-Type: application/json
+
+{
+    "username": "John",
+    "password": "Doe",
+    "birthdate": "1990-01-01",
+    "country": "jdoe@gmail.com"
+}
+
+###
+PUT http://localhost:5050/updatecontact/681eea0fadee391cee35b34f
+Content-Type: application/application/json
+
+{
+    "username": "John",
+    "password": "Doe",
+    "birthdate": "1990-01-01",
+    "country": "jdoe@gmail.com"
+}
+
+###
+DELETE http://localhost:5050/deletecontact/681eea0fadee391cee35b34f
