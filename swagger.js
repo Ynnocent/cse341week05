@@ -5,8 +5,8 @@ const doc = {
         title: "Week 05",
         description: "Week 05 API"
     },
-    host: "localhost:5050", // Change this later
-    schemes: ["http"]
+    host: "https://cse341week05.onrender.com", // Change this later
+    schemes: ["http","https"]
 };
 
 const outputFile = "./swagger.json";

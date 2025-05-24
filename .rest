@@ -1,12 +1,12 @@
-GET http://localhost:5050/
+GET https://cse341week05.onrender.com/users/
 
 
 ###
 
-GET http://localhost:5050/681eea0fadee391cee35b34f
+GET https://cse341week05.onrender.com/users/681eea0fadee391cee35b34f
 
 ###
-POST http://localhost:5050/newcontact
+POST https://cse341week05.onrender.com/users/createaccount
 Content-Type: application/json
 
 {
@@ -17,7 +17,7 @@ Content-Type: application/json
 }
 
 ###
-PUT http://localhost:5050/updatecontact/681eea0fadee391cee35b34f
+PUT https://cse341week05.onrender.com/update/681eea0fadee391cee35b34f
 Content-Type: application/application/json
 
 {
@@ -28,4 +28,4 @@ Content-Type: application/application/json
 }
 
 ###
-DELETE http://localhost:5050/deletecontact/681eea0fadee391cee35b34f
+DELETE https://cse341week05.onrender.com/deleteaccount/681eea0fadee391cee35b34f
